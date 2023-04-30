@@ -1,4 +1,5 @@
 //WORKED-2023.04.30 in a active googlesheet, it saves filename, folderPath, url of all files in root folder and all sub-folder  reccursively.
+//deploy as webapp. Just run then.
 function listFolderContents(folder, sheet, parentName, path) {
   var contents = folder.getFiles();
   var subfolders = folder.getFolders();
