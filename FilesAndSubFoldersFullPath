@@ -19,7 +19,13 @@ function listFolderContents(folder, sheet, parentName, path) {
 function listAllFolderContents() {
   var folderId = '1Y_ajVV1zLlAP3Ak_oMhXLuFZ3DlOn4Hg'; // replace with the ID of the folder you want to list
   var folder = DriveApp.getFolderById(folderId);
-  var sheet = SpreadsheetApp.getActiveSheet();
+  var sheet = SpreadsheetApp.getActiveSheet(); //this selects the active sheet whereas the below coe selects Sheet3
+  /*
+  var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Sheet3'); // Replace with your sheet name
+  sheet.getRange(2, 1, sheet.getLastRow(), 2).clearContent();
+  sheet.getRange(2, 1, data.length, 2).setValues(data);
+  */
+  
   sheet.clear();
   sheet.appendRow(["File Name", "Folder Path", "URL"]);
 
