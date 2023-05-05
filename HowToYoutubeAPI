@@ -1,0 +1,8 @@
+(not working  - 2023.05.05)
+How to Youtube API
+tutorial: https://blog.hubspot.com/website/how-to-get-youtube-api-key
+Go to
+https://console.cloud.google.com/apis/dashboard?project=spry-climber-385009
+select the project, select the explore / enable api and enable youtube api.
+create credentials ??
+Then selected Webapp ??
