@@ -18,7 +18,7 @@ function listFolderContents(folder, sheet, parentName, path) {
 }
 
 function listAllFolderContents() {
-  var folderId = '1Y_ajVV1zLlAP3Ak_oMhXLuFZ3DlOn4Hg'; // replace with the ID of the folder you want to list
+  var folderId = '1Go5j_6NzAkRSN92nOgw8uKYdG64k_PeI'; // replace with the ID of the folder you want to list
   var folder = DriveApp.getFolderById(folderId);
   //var sheet = SpreadsheetApp.getActiveSheet();
    
